@@ -1,13 +1,9 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.AsosDto;
-import com.uz.shopapi.Model.entity.Asos;
-import com.uz.shopapi.Service.AsosService;
-import com.uz.shopapi.repository.AsosRepository;
-import com.uz.shopapi.repository.HaridorRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.repository.HaridorRepository;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

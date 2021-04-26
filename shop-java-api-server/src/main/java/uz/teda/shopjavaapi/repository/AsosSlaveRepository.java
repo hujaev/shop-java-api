@@ -1,9 +1,9 @@
 package uz.teda.shopjavaapi.repository;
 
-import com.uz.shopapi.Model.entity.AsosSlave;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import uz.teda.shopjavaapi.entity.AsosSlave;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package uz.teda.shopjavaapi.repository;
 
-import com.uz.shopapi.Model.entity.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
+import uz.teda.shopjavaapi.entity.Client;
 
 public interface ClientRepository extends JpaRepository<Client,Integer> {
 
