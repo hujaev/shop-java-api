@@ -1,12 +1,12 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.DillerDto;
-import com.uz.shopapi.Model.entity.Diller;
-import com.uz.shopapi.Service.DillerService;
-import com.uz.shopapi.repository.DillerRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.DillerDto;
+import uz.teda.shopjavaapi.entity.Diller;
+import uz.teda.shopjavaapi.repository.DillerRepository;
+import uz.teda.shopjavaapi.service.DillerService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,11 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.UserDto;
-import com.uz.shopapi.Model.entity.User;
-import com.uz.shopapi.Service.UserService;
-import com.uz.shopapi.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.UserDto;
+import uz.teda.shopjavaapi.entity.User;
+import uz.teda.shopjavaapi.repository.UserRepository;
+import uz.teda.shopjavaapi.service.UserService;
 
 import java.util.ArrayList;
 import java.util.List;

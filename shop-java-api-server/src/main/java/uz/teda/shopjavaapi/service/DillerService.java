@@ -1,6 +1,6 @@
 package uz.teda.shopjavaapi.service;
 
-import com.uz.shopapi.Model.dto.DillerDto;
+import uz.teda.shopjavaapi.dto.DillerDto;
 
 import java.util.List;
 

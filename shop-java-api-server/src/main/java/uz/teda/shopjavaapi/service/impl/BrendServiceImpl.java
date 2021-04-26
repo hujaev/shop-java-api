@@ -1,12 +1,11 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.BrendDto;
-import com.uz.shopapi.Model.entity.Brend;
-import com.uz.shopapi.Service.BrendService;
-import com.uz.shopapi.repository.BrendRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.BrendDto;
+import uz.teda.shopjavaapi.entity.Brend;
+import uz.teda.shopjavaapi.service.BrendService;
 
 import java.util.ArrayList;
 import java.util.List;

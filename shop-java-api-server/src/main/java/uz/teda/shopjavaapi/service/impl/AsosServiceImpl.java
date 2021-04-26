@@ -3,7 +3,11 @@ package uz.teda.shopjavaapi.service.impl;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.AsosDto;
+import uz.teda.shopjavaapi.entity.Asos;
+import uz.teda.shopjavaapi.repository.AsosRepository;
 import uz.teda.shopjavaapi.repository.HaridorRepository;
+import uz.teda.shopjavaapi.service.AsosService;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -38,7 +42,7 @@ public class AsosServiceImpl implements AsosService {
             selectAsos.setH_id(asosDto.getHaridorId());
             selectAsos.setSumma(asosDto.getSumma());
             selectAsos.setTur_oper(asosDto.getTur_oper());
-            selectAsos.setSotuv_turi(asosDto.getSotuvTuri());
+            selectAsos.setSotuv_turi(asosDto.getSotuv_turi());
             asosRepository.save(selectAsos);
         }
 
@@ -54,7 +58,7 @@ public class AsosServiceImpl implements AsosService {
         asosDto.setHaridorId(selectAsos.getH_id());
         asosDto.setTur_oper(selectAsos.getTur_oper());
         asosDto.setSumma(selectAsos.getSumma());
-        asosDto.setSotuvTuri(selectAsos.getSotuv_turi());
+        asosDto.setSotuv_turi(selectAsos.getSotuv_turi());
 
         return asosDto;
     }
@@ -111,7 +115,7 @@ public class AsosServiceImpl implements AsosService {
             else {
                 newasos.setSana(asosDto.getSana());
             }
-            newasos.setSotuv_turi(asosDto.getSotuvTuri());
+            newasos.setSotuv_turi(asosDto.getSotuv_turi());
             newasos.setSum_d(asosDto.getSum_d());
             newasos.setSumma(asosDto.getSumma());
             newasos.setTur_oper(asosDto.getTur_oper());
@@ -137,7 +141,7 @@ public class AsosServiceImpl implements AsosService {
             dto.setKurs(asos.getKurs());
             dto.setNomer(asos.getNomer());
             dto.setSana(asos.getSana());
-            dto.setSotuvTuri(asos.getSotuv_turi());
+            dto.setSotuv_turi(asos.getSotuv_turi());
             dto.setSum_d(asos.getSum_d());
             dto.setSumma(asos.getSumma());
             dto.setTur_oper(asos.getTur_oper());

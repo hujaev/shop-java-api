@@ -1,8 +1,8 @@
 package uz.teda.shopjavaapi.service;
 
 
-import com.uz.shopapi.Model.Request.RequestMainSlave;
-import com.uz.shopapi.Model.Response.ResponseOdMainSlave;
+import uz.teda.shopjavaapi.Request.RequestMainSlave;
+import uz.teda.shopjavaapi.Response.ResponseOdMainSlave;
 
 import java.util.List;
 

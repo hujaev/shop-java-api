@@ -1,12 +1,12 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.KatDto;
-import com.uz.shopapi.Model.entity.Kat;
-import com.uz.shopapi.Service.KatService;
-import com.uz.shopapi.repository.KatRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.KatDto;
+import uz.teda.shopjavaapi.entity.Kat;
+import uz.teda.shopjavaapi.repository.KatRepository;
+import uz.teda.shopjavaapi.service.KatService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.List;
 public class KatServiceImpl implements KatService {
 
     @Autowired
-    KatRepository KatRepository;
+    KatRepository katRepository;
 
     @Override
     public List<KatDto> get() {

@@ -1,6 +1,6 @@
 package uz.teda.shopjavaapi.service;
 
-import com.uz.shopapi.Model.dto.AsosDto;
+import uz.teda.shopjavaapi.dto.AsosDto;
 
 import java.util.List;
 

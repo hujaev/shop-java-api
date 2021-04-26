@@ -1,14 +1,14 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.Request.RequestMainSlave;
-import com.uz.shopapi.Model.Response.ResponseOdMainSlave;
-import com.uz.shopapi.Model.entity.Main;
-import com.uz.shopapi.Model.entity.SlaveMain;
-import com.uz.shopapi.Service.MainService;
-import com.uz.shopapi.repository.MainRepository;
-import com.uz.shopapi.repository.MainSlaveRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.Request.RequestMainSlave;
+import uz.teda.shopjavaapi.Response.ResponseOdMainSlave;
+import uz.teda.shopjavaapi.entity.Main;
+import uz.teda.shopjavaapi.entity.SlaveMain;
+import uz.teda.shopjavaapi.repository.MainRepository;
+import uz.teda.shopjavaapi.repository.MainSlaveRepository;
+import uz.teda.shopjavaapi.service.MainService;
 
 import java.util.ArrayList;
 import java.util.List;

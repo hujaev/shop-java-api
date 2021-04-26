@@ -1,11 +1,11 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.HaridorDto;
-import com.uz.shopapi.Model.entity.Haridor;
-import com.uz.shopapi.Service.HaridorService;
-import com.uz.shopapi.repository.HaridorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.HaridorDto;
+import uz.teda.shopjavaapi.entity.Haridor;
+import uz.teda.shopjavaapi.repository.HaridorRepository;
+import uz.teda.shopjavaapi.service.HaridorService;
 
 import java.util.ArrayList;
 import java.util.List;

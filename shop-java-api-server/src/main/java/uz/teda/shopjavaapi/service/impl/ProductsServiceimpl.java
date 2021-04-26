@@ -1,26 +1,26 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.ProductDto;
-import com.uz.shopapi.Model.dto.ProductsDto;
-import com.uz.shopapi.Model.entity.Asos;
-import com.uz.shopapi.Model.entity.AsosSlave;
-import com.uz.shopapi.Model.entity.Client;
-import com.uz.shopapi.Model.entity.Product;
-import com.uz.shopapi.Service.ProductsService;
-import com.uz.shopapi.repository.AsosRepository;
-import com.uz.shopapi.repository.AsosSlaveRepository;
-import com.uz.shopapi.repository.ClientRepository;
-import com.uz.shopapi.repository.ProductsRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.ProductDto;
+import uz.teda.shopjavaapi.dto.ProductsDto;
+import uz.teda.shopjavaapi.entity.Asos;
+import uz.teda.shopjavaapi.entity.AsosSlave;
+import uz.teda.shopjavaapi.entity.Client;
+import uz.teda.shopjavaapi.entity.Product;
+import uz.teda.shopjavaapi.repository.AsosRepository;
+import uz.teda.shopjavaapi.repository.AsosSlaveRepository;
+import uz.teda.shopjavaapi.repository.ClientRepository;
+import uz.teda.shopjavaapi.repository.ProductsRepository;
+import uz.teda.shopjavaapi.service.ProductsService;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ProductsServiceimpl implements ProductsService{
+public class ProductsServiceimpl implements ProductsService {
     @Autowired
     ProductsRepository productsRepository;
     @Autowired
@@ -30,7 +30,7 @@ public class ProductsServiceimpl implements ProductsService{
     @Autowired
     AsosSlaveRepository asosSlaveRepository;
     @Override
-    public List<ProductsDto> getProducts(Integer type,Integer clientId){
+    public List<ProductsDto> getProducts(Integer type, Integer clientId){
         List<ProductsDto> list=new ArrayList<>();
         Client client=clientRepository.findClientById(clientId);
         if (client.getDollar().equals(1))

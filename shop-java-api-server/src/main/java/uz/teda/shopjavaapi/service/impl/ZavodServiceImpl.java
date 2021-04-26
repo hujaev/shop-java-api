@@ -1,12 +1,12 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.ZavodDto;
-import com.uz.shopapi.Model.entity.Zavod;
-import com.uz.shopapi.Service.ZavodService;
-import com.uz.shopapi.repository.ZavodRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.ZavodDto;
+import uz.teda.shopjavaapi.entity.Zavod;
+import uz.teda.shopjavaapi.repository.ZavodRepository;
+import uz.teda.shopjavaapi.service.ZavodService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.List;
 public class ZavodServiceImpl implements ZavodService {
 
     @Autowired
-    ZavodRepository ZavodRepository;
+    ZavodRepository zavodRepository;
 
     @Override
     public List<ZavodDto> get() {
