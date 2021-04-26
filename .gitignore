@@ -30,3 +30,6 @@ build/
 ### VS Code ###
 .vscode/
 .gitattributes
+shop-java-api-serve/.mvn
+shop-java-api-serve/.mvnw
+shop-java-api-serve/.mvnw.cmd
