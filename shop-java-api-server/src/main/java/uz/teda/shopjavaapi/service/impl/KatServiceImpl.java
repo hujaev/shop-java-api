@@ -19,7 +19,7 @@ public class KatServiceImpl implements KatService {
 
     @Override
     public List<KatDto> get() {
-        List<Kat> list=KatRepository.findAll();
+        List<Kat> list=katRepository.findAll();
         List<KatDto> answer=new ArrayList<>();
         for (int i = 0; i <list.size() ; i++) {
                 KatDto KatDto =new KatDto() ;

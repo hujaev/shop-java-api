@@ -19,7 +19,8 @@ public class ZavodServiceImpl implements ZavodService {
 
     @Override
     public List<ZavodDto> get() {
-        List<Zavod> list=ZavodRepository.findAll();
+        List<Zavod> list=zavodRepository.findAll();
+
         List<ZavodDto> answer=new ArrayList<>();
         for (int i = 0; i <list.size() ; i++) {
             ZavodDto ZavodDto =new ZavodDto() ;
