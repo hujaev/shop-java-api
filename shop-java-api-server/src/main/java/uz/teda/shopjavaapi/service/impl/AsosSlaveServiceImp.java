@@ -1,14 +1,17 @@
 package uz.teda.shopjavaapi.service.impl;
 
-import com.uz.shopapi.Model.dto.AsosSlaveDto;
-import com.uz.shopapi.Model.dto.ProductsDto;
-import com.uz.shopapi.Model.entity.AsosSlave;
-import com.uz.shopapi.Model.entity.Product;
-import com.uz.shopapi.Service.AsosSlaveService;
-import com.uz.shopapi.repository.*;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import uz.teda.shopjavaapi.dto.AsosSlaveDto;
+import uz.teda.shopjavaapi.dto.ProductsDto;
+import uz.teda.shopjavaapi.entity.AsosSlave;
+import uz.teda.shopjavaapi.entity.Product;
+import uz.teda.shopjavaapi.repository.AsosRepository;
+import uz.teda.shopjavaapi.repository.AsosSlaveRepository;
+import uz.teda.shopjavaapi.repository.ProductsRepository;
+import uz.teda.shopjavaapi.repository.UserRepository;
+import uz.teda.shopjavaapi.service.AsosSlaveService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +26,7 @@ public class AsosSlaveServiceImp implements AsosSlaveService {
 
     @Autowired
     ProductsRepository productsRepository;
+
     @Autowired
     UserRepository userRepository;
 

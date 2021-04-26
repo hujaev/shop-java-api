@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import uz.teda.shopjavaapi.dto.BrendDto;
 import uz.teda.shopjavaapi.entity.Brend;
+import uz.teda.shopjavaapi.repository.BrendRepository;
 import uz.teda.shopjavaapi.service.BrendService;
 
 import java.util.ArrayList;
