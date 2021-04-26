@@ -6,4 +6,10 @@ import java.util.List;
 
 public interface ZavodService {
    List<ZavodDto> get();
+
+
+
+
+
+   ////ZavodServices
 }
