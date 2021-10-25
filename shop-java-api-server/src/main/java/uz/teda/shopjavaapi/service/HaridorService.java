@@ -1,6 +1,6 @@
 package uz.teda.shopjavaapi.service;
 
-import uz.teda.shopjavaapi.dto.HaridorDto;
+import uz.teda.shopjavaapi.payload.HaridorDto;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package uz.teda.shopjavaapi.Response;
+package uz.teda.shopjavaapi.payload;
 
 public class ResponseOdMainSlave {
 

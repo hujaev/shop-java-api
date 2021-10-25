@@ -1,4 +1,4 @@
-package uz.teda.shopjavaapi.Request;
+package uz.teda.shopjavaapi.payload;
 
 public class RequestMainSlave {
 

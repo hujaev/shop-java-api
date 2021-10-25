@@ -3,7 +3,7 @@ package uz.teda.shopjavaapi.service.impl;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.teda.shopjavaapi.dto.BrendDto;
+import uz.teda.shopjavaapi.payload.BrendDto;
 import uz.teda.shopjavaapi.entity.Brend;
 import uz.teda.shopjavaapi.repository.BrendRepository;
 import uz.teda.shopjavaapi.service.BrendService;

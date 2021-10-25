@@ -2,8 +2,8 @@ package uz.teda.shopjavaapi.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.teda.shopjavaapi.Request.RequestMainSlave;
-import uz.teda.shopjavaapi.Response.ResponseOdMainSlave;
+import uz.teda.shopjavaapi.payload.RequestMainSlave;
+import uz.teda.shopjavaapi.payload.ResponseOdMainSlave;
 import uz.teda.shopjavaapi.entity.Main;
 import uz.teda.shopjavaapi.entity.SlaveMain;
 import uz.teda.shopjavaapi.repository.MainRepository;

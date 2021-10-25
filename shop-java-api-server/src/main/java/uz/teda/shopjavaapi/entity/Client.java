@@ -1,5 +1,8 @@
 package uz.teda.shopjavaapi.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
@@ -8,6 +11,9 @@ import java.io.Serializable;
 @Entity
 @Table(name = "s_client")
 @EntityListeners(AuditingEntityListener.class)
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
 public class Client implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -19,31 +25,5 @@ public class Client implements Serializable {
     Integer dollar;
 
 
-    public Client() {
 
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public Integer getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(Integer user_id) {
-        this.user_id = user_id;
-    }
-
-    public Integer getDollar() {
-        return dollar;
-    }
-
-    public void setDollar(Integer dollar) {
-        this.dollar = dollar;
-    }
 }

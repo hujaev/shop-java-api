@@ -3,7 +3,7 @@ package uz.teda.shopjavaapi.service.impl;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.teda.shopjavaapi.dto.DillerDto;
+import uz.teda.shopjavaapi.payload.DillerDto;
 import uz.teda.shopjavaapi.entity.Diller;
 import uz.teda.shopjavaapi.repository.DillerRepository;
 import uz.teda.shopjavaapi.service.DillerService;

@@ -2,7 +2,7 @@ package uz.teda.shopjavaapi.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.teda.shopjavaapi.dto.HaridorDto;
+import uz.teda.shopjavaapi.payload.HaridorDto;
 import uz.teda.shopjavaapi.entity.Haridor;
 import uz.teda.shopjavaapi.repository.HaridorRepository;
 import uz.teda.shopjavaapi.service.HaridorService;

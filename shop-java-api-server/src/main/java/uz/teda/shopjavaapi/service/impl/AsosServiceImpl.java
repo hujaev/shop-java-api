@@ -3,7 +3,7 @@ package uz.teda.shopjavaapi.service.impl;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.teda.shopjavaapi.dto.AsosDto;
+import uz.teda.shopjavaapi.payload.AsosDto;
 import uz.teda.shopjavaapi.entity.Asos;
 import uz.teda.shopjavaapi.repository.AsosRepository;
 import uz.teda.shopjavaapi.repository.HaridorRepository;

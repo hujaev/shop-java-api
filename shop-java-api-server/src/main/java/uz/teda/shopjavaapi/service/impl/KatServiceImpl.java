@@ -3,7 +3,7 @@ package uz.teda.shopjavaapi.service.impl;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.teda.shopjavaapi.dto.KatDto;
+import uz.teda.shopjavaapi.payload.KatDto;
 import uz.teda.shopjavaapi.entity.Kat;
 import uz.teda.shopjavaapi.repository.KatRepository;
 import uz.teda.shopjavaapi.service.KatService;

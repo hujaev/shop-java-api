@@ -1,4 +1,4 @@
-package uz.teda.shopjavaapi.dto;
+package uz.teda.shopjavaapi.payload;
 
 public class ZavodDto {
     Integer id ;

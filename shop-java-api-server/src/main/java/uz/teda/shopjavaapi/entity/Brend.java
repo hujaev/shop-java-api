@@ -1,5 +1,6 @@
 package uz.teda.shopjavaapi.entity;
 
+import lombok.Data;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
@@ -7,6 +8,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "s_brend")
 @EntityListeners(AuditingEntityListener.class)
+@Data
 public class Brend {
 
     @Id
@@ -15,19 +17,5 @@ public class Brend {
     @Column(name = "nom")
     private String nom;
 
-    public Integer getId() {
-        return id;
-    }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
 }

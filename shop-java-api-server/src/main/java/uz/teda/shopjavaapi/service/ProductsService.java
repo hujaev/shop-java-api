@@ -1,7 +1,7 @@
 package uz.teda.shopjavaapi.service;
 
-import uz.teda.shopjavaapi.dto.ProductDto;
-import uz.teda.shopjavaapi.dto.ProductsDto;
+import uz.teda.shopjavaapi.payload.ProductDto;
+import uz.teda.shopjavaapi.payload.ProductsDto;
 
 import java.util.List;
 
